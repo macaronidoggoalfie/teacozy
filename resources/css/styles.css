@@ -9,6 +9,16 @@ html {
 #mission {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#mission .blackcontainer {
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
 }
 
 #locations {
@@ -17,12 +27,15 @@ html {
 }
 
 nav {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
 }
 
 .header img {
   height: 50px;
   padding-left: 10px;
-  display: block;
+  display: inline-block;
 }
 
 .featuredtea {
